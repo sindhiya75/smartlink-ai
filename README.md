@@ -341,15 +341,26 @@ The app will be available at:
 
 ## 📸 Screenshots
 
-> *Add screenshots here after running the application.*
+## Login Page
+![Login](screenshots/logiclickn.png)
 
-| Page | Description |
-|------|-------------|
-| Login | Auth screen with gradient branding |
-| Dashboard Overview | Stats cards + recent links table |
-| Create Link | URL form with AI summary result |
-| Analytics | Charts, device breakdown, prediction |
-| Public Stats | Shareable stats page |
+## Dashboard
+![Dashboard](screenshots/dashboard.png)
+
+## AI Summary
+![AI Summary](screenshots/ai-summary.png)
+
+## Analytics
+![Analytics](screenshots/analytics.png)
+
+## MongoDB Atlas
+![MongoDB](screenshots/mongodb.png)
+
+## Render Deployment
+![Render](screenshots/render.png)
+
+## Vercel Deployment
+![Vercel](screenshots/vercel.png)
 
 ---
 
