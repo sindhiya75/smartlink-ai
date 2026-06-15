@@ -227,11 +227,10 @@ export default function LandingPage() {
 
       {/* ── Footer ── */}
       <footer className="relative z-10 border-t border-slate-800/60 py-8 px-6 text-center text-slate-500 text-sm">
-        <div className="flex items-center justify-center gap-2 mb-2">
+        <div className="flex items-center justify-center gap-2">
           <div className="w-6 h-6 bg-gradient-to-br from-indigo-500 to-purple-600 rounded-lg flex items-center justify-center text-xs">⚡</div>
           <span className="text-white font-semibold">SmartLink AI</span>
         </div>
-        <p>© 2026 SmartLink AI · Built with ❤️ for <a href="https://katomaran.com" className="text-indigo-400 hover:text-indigo-300 transition">Katomaran Hackathon</a></p>
       </footer>
     </div>
   );
