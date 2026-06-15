@@ -12,6 +12,7 @@ import AnalyticsPage from './pages/AnalyticsPage';
 import PublicStatsPage from './pages/PublicStatsPage';
 import NotFoundPage from './pages/NotFoundPage';
 import ExpiredPage from './pages/ExpiredPage';
+import LandingPage from './pages/LandingPage';
 
 // Protected Route wrapper
 const ProtectedRoute = ({ children }) => {
@@ -32,7 +33,7 @@ const PublicRoute = ({ children }) => {
 function AppRoutes() {
   return (
     <Routes>
-      <Route path="/" element={<Navigate to="/dashboard" replace />} />
+      <Route path="/" element={<LandingPage />} />
       <Route path="/login" element={<PublicRoute><LoginPage /></PublicRoute>} />
       <Route path="/register" element={<PublicRoute><RegisterPage /></PublicRoute>} />
       <Route path="/dashboard" element={<ProtectedRoute><DashboardPage /></ProtectedRoute>} />
